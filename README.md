@@ -5,7 +5,7 @@ A API oferece endpoints para listar todas as tarefas, criar uma nova tarefa, exc
 
 ## Funcionalidades Principais
 
-Listar Todas as Tarefas: Endpoint para obter todas as tarefas cadastradas.
+![Texto alternativo]()
 
 Criar Nova Tarefa: Endpoint para adicionar uma nova tarefa ao sistema.
 
@@ -58,5 +58,7 @@ mysql2: Cliente MySQL assíncrono e promissor para Node.js.
 # Para executar a aplicação, siga os passos abaixo:
 
 Instale as dependências do projeto executando `npm install`
+
 Configure as variáveis de ambiente no arquivo `.env.`
+
 Execute o servidor Node.js usando `npm start`.

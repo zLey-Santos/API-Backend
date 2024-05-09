@@ -5,8 +5,6 @@ A API oferece endpoints para listar todas as tarefas, criar uma nova tarefa, exc
 
 ## Funcionalidades Principais
 
-![get, Listar Todas as Tarefas](/img/getAll.png)
-
 Listar Todas as Tarefas: Endpoint para obter todas as tarefas cadastradas.
 
 Criar Nova Tarefa: Endpoint para adicionar uma nova tarefa ao sistema.
@@ -33,15 +31,17 @@ src: Diretório raiz contendo os principais arquivos da aplicação.
 
 ## Antes de executar a aplicação, é necessário configurar as seguintes variáveis de ambiente no arquivo .env:
 
-`PORT: Porta em que o servidor será executado.`
+```bash
+PORT: Porta em que o servidor será executado.
 
-`MYSQL_HOST: Host do servidor MySQL.`
+MYSQL_HOST: Host do servidor MySQL.
 
-`MYSQL_USER: Nome de usuário do MySQL.`
+MYSQL_USER: Nome de usuário do MySQL.
 
-`MYSQL_PASSWORD: Senha de acesso ao MySQL.`
+MYSQL_PASSWORD: Senha de acesso ao MySQL.
 
-`DB: Nome do banco de dados.`
+DB: Nome do banco de dados.
+```
 
 ## Dependências
 
@@ -55,12 +55,24 @@ mysql: Cliente MySQL para Node.js.
 
 mysql2: Cliente MySQL assíncrono e promissor para Node.js.
 
+## scripts
+
+![Texto alternativo](./img/script.png)
+
 ## Como Executar
 
 # Para executar a aplicação, siga os passos abaixo:
 
-Instale as dependências do projeto executando `npm install`
+Instale as dependências do projeto executando
+
+```bash
+npm install
+```
 
 Configure as variáveis de ambiente no arquivo `.env.`
 
-Execute o servidor Node.js usando `npm start`.
+Execute o servidor Node.js usando
+
+```bash
+npm start
+```

@@ -5,7 +5,7 @@ A API oferece endpoints para listar todas as tarefas, criar uma nova tarefa, exc
 
 ## Funcionalidades Principais
 
-![get, Listar Todas as Tarefas](./img/getAll.png)
+![get, Listar Todas as Tarefas](/img/getAll.png)
 
 Listar Todas as Tarefas: Endpoint para obter todas as tarefas cadastradas.
 

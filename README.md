@@ -57,8 +57,8 @@ mysql2: Cliente MySQL assíncrono e promissor para Node.js.
 
 # Para executar a aplicação, siga os passos abaixo:
 
-Instale as dependências do projeto executando npm install```.
-
+```bash
+Instale as dependências do projeto executando npm install
 Configure as variáveis de ambiente no arquivo .env.
-
 Execute o servidor Node.js usando npm start.
+```

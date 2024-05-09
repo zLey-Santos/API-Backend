@@ -80,4 +80,4 @@ npm start
 # Testes com Insomnia
 
 ![get](./img/getAll.png)
-![put](./img/put.png.png)
+![put](./img/put.png)

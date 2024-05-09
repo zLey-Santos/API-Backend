@@ -43,9 +43,9 @@ MYSQL_PASSWORD: Senha de acesso ao MySQL.
 DB: Nome do banco de dados.
 ```
 
-## Dependências
+# Dependências
 
-# O projeto utiliza as seguintes dependências principais:
+## O projeto utiliza as seguintes dependências principais:
 
 dotenv: Para carregar as variáveis de ambiente a partir do arquivo .env.
 
@@ -57,11 +57,11 @@ mysql2: Cliente MySQL assíncrono e promissor para Node.js.
 
 ## scripts
 
-![Texto alternativo](./img/script.png)
+![scrips](./img/script.png)
 
 ## Como Executar
 
-# Para executar a aplicação, siga os passos abaixo:
+# Para executar a aplicação, siga os psassos abaixo:
 
 Instale as dependências do projeto executando
 
@@ -69,10 +69,15 @@ Instale as dependências do projeto executando
 npm install
 ```
 
-Configure as variáveis de ambiente no arquivo `.env.`
+Configure as variáveis de ambiente no arquivo `.env`
 
 Execute o servidor Node.js usando
 
 ```bash
 npm start
 ```
+
+# Testes com Insomnia
+
+![get](./img/getAll.png)
+![put](./img/put.png.png)

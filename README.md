@@ -47,13 +47,15 @@ DB: Nome do banco de dados.
 
 ## O projeto utiliza as seguintes dependências principais:
 
-dotenv: Para carregar as variáveis de ambiente a partir do arquivo .env.
+cors: Essencial para permitir a comunicação segura entre diferentes origens
 
-express: Framework web para Node.js.
+dotenv: Para carregar as variáveis de ambiente a partir do arquivo .env
 
-mysql: Cliente MySQL para Node.js.
+express: Framework web para Node.js
 
-mysql2: Cliente MySQL assíncrono e promissor para Node.js.
+mysql: Cliente MySQL para Node.js
+
+mysql2: Cliente MySQL assíncrono e promissor para Node.js
 
 ## scripts
 

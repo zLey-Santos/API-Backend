@@ -45,15 +45,3 @@ createElement: Cria elementos HTML de forma dinâmica.
 createSelect: Cria um elemento <select> para o status das tarefas.
 
 createRow: Cria uma linha na tabela para cada tarefa.
-
-## Como Usar
-
-Clone o repositório.
-
-Instale as dependências necessárias para o backend (se aplicável).
-
-Inicie o servidor backend.
-
-Abra o arquivo index.html no navegador para visualizar a aplicação.
-
-Adicione, edite e remova tarefas conforme necessário.

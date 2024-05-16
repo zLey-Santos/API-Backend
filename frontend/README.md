@@ -46,6 +46,7 @@ createSelect: Cria um elemento <select> para o status das tarefas.
 
 createRow: Cria uma linha na tabela para cada tarefa.
 
+
 # Como Usar
 
 Clone o repositório.

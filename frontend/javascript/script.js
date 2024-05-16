@@ -41,10 +41,22 @@ const updateTask = async ({ id, title, status }) => {
   loadTasks();
 };
 
-const formatDate = (dateUTC) => {
-  const options = { dateStyle: "long", timeStyle: "short" };
-  const date = new Date(dateUTC).toLocaleString("pt-br", options);
-  return date;
+const formatDate = (dateString) => {
+  const date = new Date(dateString);
+  if (isNaN(date.getTime())) {
+    return "Data inválida";
+  } else {
+    const options = {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      hour: "numeric",
+      minute: "numeric",
+      second: "numeric",
+      hour12: false,
+    };
+    return date.toLocaleDateString("pt-BR", options);
+  }
 };
 
 const createElement = (tag, innerText = "", innerHTML = "") => {
@@ -76,11 +88,11 @@ const createSelect = (value) => {
 };
 
 const createRow = (task) => {
-  const { id, title, created_at, status } = task;
+  const { id, title, dateUTC, status } = task;
 
   const tr = createElement("tr");
   const tdTitle = createElement("td", title);
-  const tdCreatedAt = createElement("td", formatDate(created_at));
+  const tdCreatedAt = createElement("td", formatDate(dateUTC));
   const tdStatus = createElement("td");
   const tdActions = createElement("td");
 

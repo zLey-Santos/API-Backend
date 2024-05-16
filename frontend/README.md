@@ -42,7 +42,9 @@ loadTasks: Carrega e exibe as tarefas na tabela.
 
 createElement: Cria elementos HTML de forma dinâmica.
 
+
 createSelect: Cria um elemento <select> para o status das tarefas.
+
 
 createRow: Cria uma linha na tabela para cada tarefa.
 
